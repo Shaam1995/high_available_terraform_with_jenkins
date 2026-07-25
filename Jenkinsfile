@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = "Shaam1995/nginx-app"
+        IMAGE_NAME = "Shaam1995/nginx-version"
         APP_SERVER = "ubuntu@18.217.144.247"
     }
     stages {
